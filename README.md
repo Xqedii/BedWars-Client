@@ -47,9 +47,10 @@ Information about fireballs/tnts etc. placed in your base will appear at the top
 
 
 # Tactics
+Tactics, a simple way to quickly attack the enemy base. There are two tactics you can choose from. Both involve all clients throwing the necessary items forward, and one client collecting them, purchasing the necessary items, and then, as a team, you can quickly destroy the other's bed.
 <img width="537" height="94" alt="image" src="https://github.com/user-attachments/assets/9c321f01-9518-4cae-91d0-b6a3b4d9f257" />
 <img width="601" height="323" alt="image" src="https://github.com/user-attachments/assets/630be56e-1332-4b08-8bed-41cc185ab49d" />
 
-
 # Holograms
+Holograms are simply the number of items in a given diamond/emerald generator. They're useful when you don't want to go to islands with low item counts.
 <img width="1374" height="1042" alt="image" src="https://github.com/user-attachments/assets/e4c18879-9b6a-4c47-bd0a-e4b4f7b04ff0" />
