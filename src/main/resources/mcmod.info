@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bedwarsclient",
+  "name": "BedWars Client",
+  "description": "Created by Xqedii",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Xqedii"],
+  "credits": "KsanStone for ideas",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
