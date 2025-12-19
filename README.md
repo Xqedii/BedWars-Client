@@ -1,21 +1,24 @@
 # BedWars Client
-This client adds a lot of convenience to BedWars gameplay, such as notifications, Team HUD, item counts in generators, etc.
+[![Release](https://img.shields.io/github/v/release/Xqedii/BedWars-Client)](https://github.com/Xqedii/BedWars-Client/releases/latest) 
+[![Discord](https://img.shields.io/badge/Discord-Join-7289DA?logo=discord&logoColor=white)](https://discord.com/invite/6JQfeQEB4W)
 
-> [!NOTE]
-> This client may be considered a cheat client by many servers, so use it at your own risk!
+**A Minecraft client designed to make BedWars gameplay more convenient**
 
------
-## Installing
-To install the client, simply build it using Java 8 or download the ready version from Releases, and then put it in the mods folder on Forge 1.8.9.
-Additionally, if you want to achieve synchronization between clients, enable server.js and change the IP&Port in the code to enable connecting
+This client adds a great deal of convenience when playing BedWars. Your gameplay will be enhanced with additional features. Team HUD is included, item counts are shown above the generator, notifications inform you about players entering your base, and you can select tactics at the start of a round.
 
 -----
 
-# Panel Screenshots
+# Overview
 
-<img width="1614" height="889" alt="image" src="https://github.com/user-attachments/assets/02cef26f-73c0-4020-9087-4566760396a5" />
+The main panel under the right Shift key contains various client settings. These include, for example, region visualization at the start of a round, alerts for players, TNT and Fireball detection in your base, item counts above generators, Team HUD, and more.
 
-# Synchronization
+Every option can be easily enabled or disabled, allowing you to quickly turn off anything you don’t find useful.
+
+<img width="1595" height="879" alt="image" src="https://github.com/user-attachments/assets/e85faf2a-35b5-48b7-ae96-1ea3810e9310" />
+
+-----
+
+## Synchronization
 
 The clients are interconnected, so if one player doesn't have database chunks loaded and another does, they'll still receive notifications about what's happening.
 In addition, clients can send messages to each other, quickly join parties, etc.
@@ -26,31 +29,50 @@ In addition, clients can send messages to each other, quickly join parties, etc.
 >  **/bw-party** (create a party between clients)
 >  **/bw-mess [message]** (Message to clients)
 
-<img width="457" height="109" alt="image" src="https://github.com/user-attachments/assets/d5b2888a-59b3-4335-bc66-2e77614a2ad3" />
-<img width="457" height="109" alt="image" src="https://github.com/user-attachments/assets/a2afae8b-45fd-49f4-8b56-bbbfca25fd69" />
+<img width="429" height="98" alt="image" src="https://github.com/user-attachments/assets/75d07007-b8b3-4d5f-97ed-62cbfd97db1d" />
+<img width="429" height="98" alt="image" src="https://github.com/user-attachments/assets/f7d9dac8-9fb1-40bd-9146-e5a7200f3b6e" />
+
+-----
 
 ## Team Hud
-Team Hud is nothing more than information about your teammates
+In the top-left corner of the screen, the stats of our teammates will be displayed, including their username, head icon, HP, and the number of items for the shop. This allows us to easily see who has which items when we want to borrow something from them.
 
-<img width="395" height="224" alt="image" src="https://github.com/user-attachments/assets/77680a69-a38f-4c14-9070-acd867700a3b" />
+<img width="394" height="224" alt="image" src="https://github.com/user-attachments/assets/d3e9826a-07bd-4b4f-834b-d6ff20aa54c8" />
 
+-----
 
 ## Incomming Info
-This is one of the most useful things, i.e. infomming info, you can know when someone comes to your base or leaves it while being at the other end of the map
+Incoming Info is simply a notification that someone has entered your base. It is sent to the entire team and shows the username of the intruder along with their team indicated by color. This allows you to know when your base is being attacked and quickly return to defend it.
 
-<img width="562" height="279" alt="image" src="https://github.com/user-attachments/assets/a2a76761-4c81-4dde-9987-4c7a7831ddb0" />
+<img width="562" height="135" alt="image" src="https://github.com/user-attachments/assets/d6e2f308-ddb6-4450-b725-e7c3cf6433c7" />
 
-# Actions in base
-Information about fireballs/tnts etc. placed in your base will appear at the top of the screen
-<img width="486" height="136" alt="image" src="https://github.com/user-attachments/assets/be4bbbb7-4327-4a64-8093-59fe9eacd860" />
-<img width="466" height="112" alt="image" src="https://github.com/user-attachments/assets/f70e91e6-c2cf-4d5e-83e2-8eccc5b66b3e" />
+-----
 
+## Actions in base
+Similar to Incoming Info, this feature shows what is currently happening in the base, such as when someone places TNT or throws a Fireball. These notifications are also sent to the entire team using the client.
 
-# Tactics
+<img width="446" height="112" alt="image" src="https://github.com/user-attachments/assets/6a793615-ff22-40c3-87cc-d9ca2c0af477" />
+<img width="466" height="112" alt="image" src="https://github.com/user-attachments/assets/724bd40f-5533-427e-badc-7329073227ea" />
+
+-----
+
+## Tactics
 Tactics, a simple way to quickly attack the enemy base. There are two tactics you can choose from. Both involve all clients throwing the necessary items forward, and one client collecting them, purchasing the necessary items, and then, as a team, you can quickly destroy the other's bed.
-<img width="537" height="94" alt="image" src="https://github.com/user-attachments/assets/9c321f01-9518-4cae-91d0-b6a3b4d9f257" />
-<img width="601" height="323" alt="image" src="https://github.com/user-attachments/assets/630be56e-1332-4b08-8bed-41cc185ab49d" />
 
-# Holograms
-Holograms are simply the number of items in a given diamond/emerald generator. They're useful when you don't want to go to islands with low item counts.
-<img width="1374" height="1042" alt="image" src="https://github.com/user-attachments/assets/e4c18879-9b6a-4c47-bd0a-e4b4f7b04ff0" />
+<img width="537" height="94" alt="image" src="https://github.com/user-attachments/assets/0571985e-f33b-4c15-9ab9-d98615a26fae" />
+<img width="537" height="323" alt="image" src="https://github.com/user-attachments/assets/7226fde3-9670-476b-a08a-b5183465a891" />
+
+-----
+
+## Holograms
+Above the holograms, the number of items they contain is displayed, allowing us to avoid approaching a generator that is empty.
+<img width="1021" height="564" alt="image" src="https://github.com/user-attachments/assets/56cb0bb9-e59d-4dd2-9501-be502afc9cab" />
+
+-----
+
+# Installation
+
+To install the client, download the repository and build the JAR file, or download it from Releases. Then, place the JAR file into the mods folder for Forge 1.8.9.
+> [!WARNING]
+> This client may be considered a cheat client on many BedWars servers, so you use it at your own risk.
+
